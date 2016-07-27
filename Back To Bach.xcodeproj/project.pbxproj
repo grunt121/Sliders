@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E864C31D47E69E0045699C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E864C21D47E69E0045699C /* AppDelegate.swift */; };
+		30E864C51D47E69E0045699C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E864C41D47E69E0045699C /* ViewController.swift */; };
+		30E864C81D47E69E0045699C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E864C61D47E69E0045699C /* Main.storyboard */; };
+		30E864CA1D47E69E0045699C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E864C91D47E69E0045699C /* Assets.xcassets */; };
+		30E864CD1D47E69E0045699C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E864CB1D47E69E0045699C /* LaunchScreen.storyboard */; };
+		30E864D51D47E6CA0045699C /* Johann_Sebastian_Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30E864D41D47E6CA0045699C /* Johann_Sebastian_Bach.jpg */; };
+		30E864D71D47E6E00045699C /* bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 30E864D61D47E6E00045699C /* bach.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30E864BF1D47E69E0045699C /* Back To Bach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Back To Bach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E864C21D47E69E0045699C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30E864C41D47E69E0045699C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30E864C71D47E69E0045699C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30E864C91D47E69E0045699C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E864CC1D47E69E0045699C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30E864CE1D47E69E0045699C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E864D41D47E6CA0045699C /* Johann_Sebastian_Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Johann_Sebastian_Bach.jpg; sourceTree = "<group>"; };
+		30E864D61D47E6E00045699C /* bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bach.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E864BC1D47E69E0045699C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E864B61D47E69E0045699C = {
+			isa = PBXGroup;
+			children = (
+				30E864C11D47E69E0045699C /* Back To Bach */,
+				30E864C01D47E69E0045699C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E864C01D47E69E0045699C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E864BF1D47E69E0045699C /* Back To Bach.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E864C11D47E69E0045699C /* Back To Bach */ = {
+			isa = PBXGroup;
+			children = (
+				30E864C21D47E69E0045699C /* AppDelegate.swift */,
+				30E864D61D47E6E00045699C /* bach.mp3 */,
+				30E864D41D47E6CA0045699C /* Johann_Sebastian_Bach.jpg */,
+				30E864C41D47E69E0045699C /* ViewController.swift */,
+				30E864C61D47E69E0045699C /* Main.storyboard */,
+				30E864C91D47E69E0045699C /* Assets.xcassets */,
+				30E864CB1D47E69E0045699C /* LaunchScreen.storyboard */,
+				30E864CE1D47E69E0045699C /* Info.plist */,
+			);
+			path = "Back To Bach";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E864BE1D47E69E0045699C /* Back To Bach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E864D11D47E69E0045699C /* Build configuration list for PBXNativeTarget "Back To Bach" */;
+			buildPhases = (
+				30E864BB1D47E69E0045699C /* Sources */,
+				30E864BC1D47E69E0045699C /* Frameworks */,
+				30E864BD1D47E69E0045699C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Back To Bach";
+			productName = "Back To Bach";
+			productReference = 30E864BF1D47E69E0045699C /* Back To Bach.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E864B71D47E69E0045699C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jamie Garner";
+				TargetAttributes = {
+					30E864BE1D47E69E0045699C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 30E864BA1D47E69E0045699C /* Build configuration list for PBXProject "Back To Bach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30E864B61D47E69E0045699C;
+			productRefGroup = 30E864C01D47E69E0045699C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E864BE1D47E69E0045699C /* Back To Bach */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E864BD1D47E69E0045699C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E864D51D47E6CA0045699C /* Johann_Sebastian_Bach.jpg in Resources */,
+				30E864D71D47E6E00045699C /* bach.mp3 in Resources */,
+				30E864CD1D47E69E0045699C /* LaunchScreen.storyboard in Resources */,
+				30E864CA1D47E69E0045699C /* Assets.xcassets in Resources */,
+				30E864C81D47E69E0045699C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E864BB1D47E69E0045699C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E864C51D47E69E0045699C /* ViewController.swift in Sources */,
+				30E864C31D47E69E0045699C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30E864C61D47E69E0045699C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E864C71D47E69E0045699C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30E864CB1D47E69E0045699C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E864CC1D47E69E0045699C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30E864CF1D47E69E0045699C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30E864D01D47E69E0045699C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30E864D21D47E69E0045699C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Back To Bach/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.jamiegarner.Back-To-Bach";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30E864D31D47E69E0045699C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Back To Bach/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.jamiegarner.Back-To-Bach";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E864BA1D47E69E0045699C /* Build configuration list for PBXProject "Back To Bach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E864CF1D47E69E0045699C /* Debug */,
+				30E864D01D47E69E0045699C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E864D11D47E69E0045699C /* Build configuration list for PBXNativeTarget "Back To Bach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E864D21D47E69E0045699C /* Debug */,
+				30E864D31D47E69E0045699C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E864B71D47E69E0045699C /* Project object */;
+}

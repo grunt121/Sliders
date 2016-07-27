@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Back_To_Bach" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yc1-x1-5Ni">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="oOg-tL-JOJ"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Back To Bach" id="rvo-3n-1ud">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="ZjQ-jX-bqN">
+                                            <connections>
+                                                <action selector="play:" destination="BYZ-38-t0r" id="56e-7w-6fs"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="80s-Eu-MDH">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="S06-p0-rGB"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem systemItem="pause" id="uHf-eo-7pB">
+                                        <connections>
+                                            <action selector="pause:" destination="BYZ-38-t0r" id="nBB-7i-WIv"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="cuy-47-h87"/>
+                                    <barButtonItem title="Stop" id="LMF-jb-q7O">
+                                        <connections>
+                                            <action selector="stop:" destination="BYZ-38-t0r" id="596-Xo-jLm"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Johann_Sebastian_Bach.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YbW-UT-MdI">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Yuc-SN-1zA"/>
+                                    <constraint firstAttribute="height" constant="128" id="uMr-sg-nfd"/>
+                                </constraints>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pK9-1g-jJt">
+                                <rect key="frame" x="230" y="399" width="140" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Opb-9J-Qgi"/>
+                                    <constraint firstAttribute="width" constant="136" id="dRC-lS-7iK"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="adjustVolume:" destination="BYZ-38-t0r" eventType="valueChanged" id="MG8-Ah-pCT"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="uqt-nF-iRP">
+                                <rect key="frame" x="230" y="447" width="140" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="mai-wl-4aF"/>
+                                    <constraint firstAttribute="width" constant="136" id="vie-5L-awu"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="scrub:" destination="BYZ-38-t0r" eventType="valueChanged" id="FtZ-IR-aTs"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pK9-1g-jJt" firstAttribute="top" secondItem="YbW-UT-MdI" secondAttribute="bottom" constant="35" id="7Mq-cl-3yr"/>
+                            <constraint firstItem="Yc1-x1-5Ni" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="7r6-uk-ePq"/>
+                            <constraint firstItem="YbW-UT-MdI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8XQ-8Z-Omv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="80s-Eu-MDH" secondAttribute="trailing" constant="-20" id="ARa-gg-caf"/>
+                            <constraint firstItem="uqt-nF-iRP" firstAttribute="top" secondItem="pK9-1g-jJt" secondAttribute="bottom" constant="18" id="BQs-3w-cnZ"/>
+                            <constraint firstItem="80s-Eu-MDH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="JMI-ng-dmN"/>
+                            <constraint firstItem="YbW-UT-MdI" firstAttribute="top" secondItem="Yc1-x1-5Ni" secondAttribute="bottom" constant="172" id="K7Q-UX-EtM"/>
+                            <constraint firstItem="uqt-nF-iRP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QnI-Fe-bNP"/>
+                            <constraint firstItem="Yc1-x1-5Ni" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Ses-3x-7um"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yc1-x1-5Ni" secondAttribute="trailing" constant="-20" id="aFj-i6-tlX"/>
+                            <constraint firstItem="pK9-1g-jJt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="azp-Uw-xSA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="80s-Eu-MDH" secondAttribute="bottom" id="cwK-6H-Bj7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrubSlider" destination="uqt-nF-iRP" id="QB8-rL-cx5"/>
+                        <outlet property="volumeSlider" destination="pK9-1g-jJt" id="axD-qC-E0o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="339"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Johann_Sebastian_Bach.jpg" width="480" height="591"/>
+    </resources>
+</document>
